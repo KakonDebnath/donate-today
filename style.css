@@ -1,4 +1,47 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* Common Styles */
+* {
     margin: 0;
     padding: 0;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
 }
+/* Primary Btn */
+.primary_btn {
+    background-color: #FF5454;
+    border: 0;
+    color: #fff;
+    padding: 15px 25px;
+    font-size: 24px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* header Section Style */
+
+header {
+    padding: 150px 200px;
+    background-image:linear-gradient(0deg, black, transparent), url("images/donation13.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.header_title {
+    font-size: 75px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.header_disc {
+    margin: 30px 0;
+    text-align: center;
+    font-size: 22px;
+}
+
